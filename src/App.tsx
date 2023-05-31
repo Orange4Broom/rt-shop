@@ -5,6 +5,7 @@ import Favourites from './pages/favourites/Favourites';
 import Cart from './pages/cart/Cart';
 import Login from './pages/login/Login';
 import Product from './pages/product/Product';
+import Register from './pages/register/Register';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/cart" element={<Cart />} />
       <Route path="/favourites" element={<Favourites />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
       <Route path="/product/:id" element={<Product />} />
     </Routes>
   );

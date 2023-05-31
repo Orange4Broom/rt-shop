@@ -1,8 +1,12 @@
+import DefaultLayout from '../../layouts/DefaultLayouts';
+
 function Cart() {
   return (
-    <div>
-      <h1>Cart</h1>
-    </div>
+    <DefaultLayout>
+      <div className="Home">
+        <h1>Cart</h1>
+      </div>
+    </DefaultLayout>
   );
 }
 

@@ -1,8 +1,12 @@
+import DefaultLayout from '../../layouts/DefaultLayouts';
+
 function Product() {
   return (
-    <div>
-      <h1>Product</h1>
-    </div>
+    <DefaultLayout>
+      <div className="Home">
+        <h1>Home</h1>
+      </div>
+    </DefaultLayout>
   );
 }
 

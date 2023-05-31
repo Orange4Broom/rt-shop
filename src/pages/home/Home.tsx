@@ -1,10 +1,13 @@
+import DefaultLayout from '../../layouts/DefaultLayouts';
 import './home.scss';
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <DefaultLayout>
+      <div className="Home">
+        <h1>Home</h1>
+      </div>
+    </DefaultLayout>
   );
 }
 

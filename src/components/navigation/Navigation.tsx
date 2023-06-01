@@ -18,7 +18,7 @@ function Navigation() {
     <nav className="Nav">
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          <img src="images/logo.png" alt="logo" />
+          <img src="/images/logo.png" alt="logo" />
         </Link>
         <ul className="nav-list">
           <li>

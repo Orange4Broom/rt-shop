@@ -1,0 +1,123 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 400px;
+  width: 260px;
+  padding: 5px;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+
+  background: #fff;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 260px;
+  width: 100%;
+}
+
+.card-image img {
+  max-height: 190px;
+  max-width: 250px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  gap: 12px;
+
+  height: 160px;
+  width: 100%;
+}
+
+.card-content h2, p, a {
+  margin: 0;
+  text-decoration: none;
+}
+
+.product-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.product-description {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #00000099;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000ca;
+}
+
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px ;
+
+  height: 40px;
+  width: 220px;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  background: #30a435;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background: #2a8e2f;
+}
+
+.cart-button:active {
+  background: #24822a;
+  scale: 0.98;
+}
+
+.like-button {
+  border: none;
+  color: #5c5c5c;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.like-button:active {
+  scale: 0.90;
+}
+
+.liked {
+  color: red;
+}

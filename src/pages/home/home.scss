@@ -2,7 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  height: 100vh;
+  height: auto;
   width: 100vw;
+}
+
+.grid-wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 260px));
+  grid-gap: 24px;
+
+  width: 95%;
+  max-width: 1400px;
+  padding: 24px;
+}
+
+.products-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 0 20px 0;
 }

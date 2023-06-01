@@ -125,12 +125,12 @@
     transition: right 0.4s;
 
     background: rgb(255, 255, 255);
-    box-shadow: -4px 0px 12px rgba(0, 0, 0, 0.15);
     z-index: 5;
   }
 
   .menu.shown {
     right: 0;
+    box-shadow: -4px 0px 12px rgba(0, 0, 0, 0.15);
   }
 
   .close-menu-button {

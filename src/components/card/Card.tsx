@@ -14,7 +14,6 @@ interface CardProps {
 
 const Card = ({
   id,
-  category,
   name,
   price,
   image,

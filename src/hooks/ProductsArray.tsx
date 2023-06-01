@@ -1,17 +1,7 @@
-import { useState } from 'react';
 import uuid from 'react-uuid';
 
-interface Product {
-  id: string;
-  category: string;
-  name: string;
-  price: number;
-  image: string;
-  description: string;
-}
-
 function ProductsArray() {
-  const [products, setProducts] = useState([
+  const Products = [
     {
       id: uuid(),
       category: 'notebook',
@@ -83,12 +73,13 @@ function ProductsArray() {
       category: 'printer',
       name: 'Dell 1234',
       price: 400,
-      image: 'https://www.quill.com/content/iw/images/category/printers.png?v=zRvqlvFTOYKY-dl2p7RpEg',
+      image:
+        'https://www.quill.com/content/iw/images/category/printers.png?v=zRvqlvFTOYKY-dl2p7RpEg',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
     },
-  ]);
-  return products;
+  ];
+  return Products;
 }
 
 export default ProductsArray;

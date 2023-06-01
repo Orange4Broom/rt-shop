@@ -21,8 +21,95 @@
 
 .products-filter {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  
 
-  padding: 40px 0 20px 0;
+  max-width: 800px;
+  width: 100%;
+
+  margin: 40px 0 20px 0;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+
+  width: 100%;
+  max-width: 800px;
+
+  padding: 0 auto;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  height: 25px;
+  max-width: 500px;
+  width: 70%;
+  height: 26px;
+
+  border: 2px solid var(--green);
+  border-radius: 4px;
+  padding: 0 8px;
+
+  font-size: 14px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar:focus {
+  outline: none;
+  border: 2px solid var(--green);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.search-button {
+  height: 30px;
+  width: 30px;
+  background: transparent;
+  color: var(--green);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+
+  margin-left: -50px;
+  cursor: pointer;
+}
+
+.filters {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 20px;
+
+  width: 100%;
+}
+
+.filters > span {
+  font-size: 12px;
+  color: #000000b8;
+}
+
+.filters > span > select {
+  height: 30px;
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid var(--green);
+  border-radius: 4px;
+  padding: 0 8px;
+
+  font-size: 14px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.filters > span > select:focus {
+  outline: none;
+  border: 2px solid var(--green);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.filters > span > select:hover {
+  cursor: pointer;
 }

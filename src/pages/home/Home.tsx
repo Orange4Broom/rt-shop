@@ -16,7 +16,7 @@ function Home() {
             </button>
           </div>
 
-          {/* <div className="filters">
+          <div className="filters">
             <span>
               Category:
               <select name="category" id="category">
@@ -46,7 +46,7 @@ function Home() {
                 <option value="desc">Descending</option>
               </select>
             </span>
-          </div> */}
+          </div>
         </form>
         <div className="grid-wrapper">
           {ProductsArray().map((product) => (

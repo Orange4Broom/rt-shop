@@ -32,7 +32,7 @@ function Navigation() {
               className={routePath === '/cart' ? 'active' : undefined}
             >
               <Icon type="fas" name="shopping-cart" color="" />
-              <sup className="cart-items">2</sup>
+              <sup className="cart-items">{}</sup>
             </Link>
           </li>
           <li>

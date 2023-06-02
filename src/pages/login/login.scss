@@ -1,0 +1,144 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.form-wrapper {
+  height: auto;
+  width: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  height: 380px;
+  width: 250px;
+
+  padding: 10px 20px;
+
+  border: 1px solid #ababab;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05);
+}
+
+.login-form > a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-header {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.group {
+  position: relative;
+}
+ 
+.input {
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+
+  width: 200px;
+
+  border: none;
+  border-bottom: 1px solid #6e6e6e;
+  background: transparent;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-bottom: 1px solid var(--green);
+}
+ 
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  height: 30px;
+  width: 220px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: var(--green);
+  color: white;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2a8e2f;
+}
+
+.btn:active {
+  background-color: #24822a;
+  scale: 0.98;
+}
+
+.form-remember {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 12px;
+
+  font-size: 13px;
+
+  width: 220px;
+}
+
+.form-forget {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 14px;
+
+  width: 220px;
+}
+
+.form-forget:hover {
+  color: #2a8e2f;
+}
+
+.no-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 14px;
+
+  width: 220px;
+}
+
+.no-account > a {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.no-account > a:hover {
+  color: #2a8e2f;
+}
+ 

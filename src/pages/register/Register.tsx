@@ -4,7 +4,7 @@ function Register() {
   return (
     <DefaultLayout>
       <div className="Home">
-        <h1>Home</h1>
+        <h1>Register</h1>
       </div>
     </DefaultLayout>
   );
